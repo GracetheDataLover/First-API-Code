@@ -9,4 +9,4 @@ def read():
 if __name__ == "__main__":
     import uvicorn #a web server that lets us run the API
 
-    uvicorn.run("main:app", host="0.0.0.0", port=8000)
+    uvicorn.run("main:app", host="0.0.0.0", port=8000) # app name on windows should be "main:app"
